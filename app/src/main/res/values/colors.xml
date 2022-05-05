@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_gray_light">#FF5d859c</color>
+    <color name="color_gray">#FF2f586e</color>
+    <color name="color_gray_90">#E62f586e</color>
+    <color name="color_gray_dark">#FF002f43</color>
+    <color name="color_text_search">#993C3C43</color>
+
+    <color name="color_green">#FFACEDC6</color>
+    <color name="color_green_dark">#FF7bba95</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp">
+        <RelativeLayout
+            android:id="@+id/itemContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/background_comment"
+            android:backgroundTint="@color/color_green"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/tvBodyPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/bodyPost"
+                android:theme="@style/TextViewBodyPostStyle"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTitlePost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemContent"
+            android:text="@string/nickComment"
+            android:theme="@style/TextViewNickCommentStyle"/>
+    </RelativeLayout>
+</RelativeLayout>
+

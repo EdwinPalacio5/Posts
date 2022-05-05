@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Post App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post">Post</string>
+    <string name="searchPost">Search Post</string>
+    <string name="back">Back</string>
+    <string name="album">Album</string>
+    <string name="comments">Comments</string>
+    <string name="searchComments">Search Comments</string>
+    <string name="titlePost">Title...</string>
+    <string name="bodyPost">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ...</string>
+    <string name="photos">Photos</string>
+    <string name="nickComment">Jayne_Kuhic@sydney.com</string>
+</resources>

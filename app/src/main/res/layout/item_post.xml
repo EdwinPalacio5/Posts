@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="24dp">
+
+    <RelativeLayout
+        android:id="@+id/itemContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/background_post"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvTitlePost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="@string/titlePost"
+            android:theme="@style/TextViewTitlePostStyle"/>
+
+        <TextView
+            android:id="@+id/tvBodyPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:layout_below="@+id/tvTitlePost"
+            android:text="@string/bodyPost"
+            android:theme="@style/TextViewBodyPostStyle"/>
+
+        <LinearLayout
+            android:id="@+id/layoutOptionsPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvBodyPost">
+
+            <ImageView
+                android:id="@+id/ivPhotos"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_photos"
+                android:contentDescription="@string/photos"/>
+
+            <androidx.legacy.widget.Space
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ivComments"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_comments"
+                android:contentDescription="@string/comments"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
